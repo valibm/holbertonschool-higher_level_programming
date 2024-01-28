@@ -1,4 +1,4 @@
-s0;136;0c#!/usr/bin/python3
+#!/usr/bin/python3
 def divisible_by_2(my_list=[]):
     check_multiples = []
     for i in range(len(my_list)):
