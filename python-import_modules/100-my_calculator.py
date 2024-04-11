@@ -4,7 +4,7 @@ if __name__ == '__main__':
     from calculator_1 import add, sub, mul, div
 
     args = len(argv) - 1
-    operators = ['+',' -', '*', '/']
+    operators = ['+', ' -', '*', '/']
     res = 0
     if args == 3:
         a = int(argv[1])
@@ -13,7 +13,7 @@ if __name__ == '__main__':
             res = add(a, b)
             print("{} + {} = {}".format(a, b, res))
         elif argv[2] == '-':
-            res = sub(a,b)
+            res = sub(a, b)
             print("{} - {} = {}".format(a, b, res))
         elif argv[2] == '*':
             res = mul(a, b)
