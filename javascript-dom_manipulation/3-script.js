@@ -1,5 +1,5 @@
-// script that adds the class red to the HTML tag HEADER to red
+// script that toggles the class of the HTML tag HEADER to red
 
-$('DIV#red_header').click(function () {
-    $('header').addClass('red');
+$('DIV#toggle_header').click(function () {
+    $('header').toggleClass('red green');
 });

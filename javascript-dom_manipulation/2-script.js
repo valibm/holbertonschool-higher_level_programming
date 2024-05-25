@@ -1,5 +1,5 @@
-// script that updates the text color of the HTML tag HEADER to red
+// script that adds the class red to the HTML tag HEADER to red
 
 $('DIV#red_header').click(function () {
-    $('header').css({ color: '#FF0000' });
+    $('header').addClass('red');
 });
